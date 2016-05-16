@@ -1,0 +1,340 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		691F12AD1CE31B84008EE6DD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 691F12AC1CE31B84008EE6DD /* main.m */; };
+		691F12B01CE31B84008EE6DD /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 691F12AF1CE31B84008EE6DD /* AppDelegate.m */; };
+		691F12B31CE31B84008EE6DD /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 691F12B21CE31B84008EE6DD /* ViewController.m */; };
+		691F12B61CE31B84008EE6DD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 691F12B41CE31B84008EE6DD /* Main.storyboard */; };
+		691F12B81CE31B84008EE6DD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 691F12B71CE31B84008EE6DD /* Assets.xcassets */; };
+		691F12BB1CE31B84008EE6DD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 691F12B91CE31B84008EE6DD /* LaunchScreen.storyboard */; };
+		691F12C41CE31BCB008EE6DD /* JJDownloadManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 691F12C31CE31BCB008EE6DD /* JJDownloadManager.m */; };
+		691F12C71CE31F8D008EE6DD /* JJDownloadTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 691F12C61CE31F8D008EE6DD /* JJDownloadTool.m */; };
+		691F12CA1CE32371008EE6DD /* NSString+Hash.m in Sources */ = {isa = PBXBuildFile; fileRef = 691F12C91CE32371008EE6DD /* NSString+Hash.m */; };
+		694DDFD41CE57D58003E2288 /* TwoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 694DDFD31CE57D58003E2288 /* TwoViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		691F12A81CE31B83008EE6DD /* 离线断点续传.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "离线断点续传.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		691F12AC1CE31B84008EE6DD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		691F12AE1CE31B84008EE6DD /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		691F12AF1CE31B84008EE6DD /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		691F12B11CE31B84008EE6DD /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		691F12B21CE31B84008EE6DD /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		691F12B51CE31B84008EE6DD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		691F12B71CE31B84008EE6DD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		691F12BA1CE31B84008EE6DD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		691F12BC1CE31B84008EE6DD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		691F12C21CE31BCB008EE6DD /* JJDownloadManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JJDownloadManager.h; sourceTree = "<group>"; };
+		691F12C31CE31BCB008EE6DD /* JJDownloadManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JJDownloadManager.m; sourceTree = "<group>"; };
+		691F12C51CE31F8D008EE6DD /* JJDownloadTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JJDownloadTool.h; sourceTree = "<group>"; };
+		691F12C61CE31F8D008EE6DD /* JJDownloadTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JJDownloadTool.m; sourceTree = "<group>"; };
+		691F12C81CE32371008EE6DD /* NSString+Hash.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Hash.h"; sourceTree = "<group>"; };
+		691F12C91CE32371008EE6DD /* NSString+Hash.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Hash.m"; sourceTree = "<group>"; };
+		694DDFD21CE57D58003E2288 /* TwoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TwoViewController.h; sourceTree = "<group>"; };
+		694DDFD31CE57D58003E2288 /* TwoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TwoViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		691F12A51CE31B83008EE6DD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		691F129F1CE31B83008EE6DD = {
+			isa = PBXGroup;
+			children = (
+				691F12AA1CE31B84008EE6DD /* 离线断点续传 */,
+				691F12A91CE31B83008EE6DD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		691F12A91CE31B83008EE6DD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				691F12A81CE31B83008EE6DD /* 离线断点续传.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		691F12AA1CE31B84008EE6DD /* 离线断点续传 */ = {
+			isa = PBXGroup;
+			children = (
+				691F12AE1CE31B84008EE6DD /* AppDelegate.h */,
+				691F12AF1CE31B84008EE6DD /* AppDelegate.m */,
+				691F12B11CE31B84008EE6DD /* ViewController.h */,
+				691F12B21CE31B84008EE6DD /* ViewController.m */,
+				694DDFD21CE57D58003E2288 /* TwoViewController.h */,
+				694DDFD31CE57D58003E2288 /* TwoViewController.m */,
+				696174B01CE971E3008C1D02 /* DownloadTool */,
+				691F12B41CE31B84008EE6DD /* Main.storyboard */,
+				691F12B71CE31B84008EE6DD /* Assets.xcassets */,
+				691F12B91CE31B84008EE6DD /* LaunchScreen.storyboard */,
+				691F12BC1CE31B84008EE6DD /* Info.plist */,
+				691F12AB1CE31B84008EE6DD /* Supporting Files */,
+			);
+			path = "离线断点续传";
+			sourceTree = "<group>";
+		};
+		691F12AB1CE31B84008EE6DD /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				691F12AC1CE31B84008EE6DD /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		696174B01CE971E3008C1D02 /* DownloadTool */ = {
+			isa = PBXGroup;
+			children = (
+				691F12C21CE31BCB008EE6DD /* JJDownloadManager.h */,
+				691F12C31CE31BCB008EE6DD /* JJDownloadManager.m */,
+				691F12C81CE32371008EE6DD /* NSString+Hash.h */,
+				691F12C91CE32371008EE6DD /* NSString+Hash.m */,
+				691F12C51CE31F8D008EE6DD /* JJDownloadTool.h */,
+				691F12C61CE31F8D008EE6DD /* JJDownloadTool.m */,
+			);
+			name = DownloadTool;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		691F12A71CE31B83008EE6DD /* 离线断点续传 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 691F12BF1CE31B84008EE6DD /* Build configuration list for PBXNativeTarget "离线断点续传" */;
+			buildPhases = (
+				691F12A41CE31B83008EE6DD /* Sources */,
+				691F12A51CE31B83008EE6DD /* Frameworks */,
+				691F12A61CE31B83008EE6DD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "离线断点续传";
+			productName = "离线断点续传";
+			productReference = 691F12A81CE31B83008EE6DD /* 离线断点续传.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		691F12A01CE31B83008EE6DD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = rdg;
+				TargetAttributes = {
+					691F12A71CE31B83008EE6DD = {
+						CreatedOnToolsVersion = 7.3;
+					};
+				};
+			};
+			buildConfigurationList = 691F12A31CE31B83008EE6DD /* Build configuration list for PBXProject "离线断点续传" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 691F129F1CE31B83008EE6DD;
+			productRefGroup = 691F12A91CE31B83008EE6DD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				691F12A71CE31B83008EE6DD /* 离线断点续传 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		691F12A61CE31B83008EE6DD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				691F12BB1CE31B84008EE6DD /* LaunchScreen.storyboard in Resources */,
+				691F12B81CE31B84008EE6DD /* Assets.xcassets in Resources */,
+				691F12B61CE31B84008EE6DD /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		691F12A41CE31B83008EE6DD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				694DDFD41CE57D58003E2288 /* TwoViewController.m in Sources */,
+				691F12B31CE31B84008EE6DD /* ViewController.m in Sources */,
+				691F12CA1CE32371008EE6DD /* NSString+Hash.m in Sources */,
+				691F12C71CE31F8D008EE6DD /* JJDownloadTool.m in Sources */,
+				691F12C41CE31BCB008EE6DD /* JJDownloadManager.m in Sources */,
+				691F12B01CE31B84008EE6DD /* AppDelegate.m in Sources */,
+				691F12AD1CE31B84008EE6DD /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		691F12B41CE31B84008EE6DD /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				691F12B51CE31B84008EE6DD /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		691F12B91CE31B84008EE6DD /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				691F12BA1CE31B84008EE6DD /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		691F12BD1CE31B84008EE6DD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		691F12BE1CE31B84008EE6DD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		691F12C01CE31B84008EE6DD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "离线断点续传/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.rdg.------";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		691F12C11CE31B84008EE6DD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "离线断点续传/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.rdg.------";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		691F12A31CE31B83008EE6DD /* Build configuration list for PBXProject "离线断点续传" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				691F12BD1CE31B84008EE6DD /* Debug */,
+				691F12BE1CE31B84008EE6DD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		691F12BF1CE31B84008EE6DD /* Build configuration list for PBXNativeTarget "离线断点续传" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				691F12C01CE31B84008EE6DD /* Debug */,
+				691F12C11CE31B84008EE6DD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 691F12A01CE31B83008EE6DD /* Project object */;
+}
